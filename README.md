@@ -11,9 +11,9 @@ Theme of the Project : Open Innovation
 
 Discord Usernames of TEAM MEMBERS on our Discord Server (Technothon 1.0) : 
 
+Hima Bindu 🎈o.O#025,
 gayathri#8157,  
 Greeshma#0647,   
-Hima Bindu 🎈o.O#025, 
 Karthik P#2291
 
 Detailed Explanation of the Idea : It helps to monitor our lost items  in our day to day life and make things easy
