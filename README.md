@@ -24,4 +24,4 @@
 
 **Real Time usage:** This real time projects include IEEE standard-based that produce real-time services. For instance, there are different devices available but they are somewhat not cost effective and their size factor was not upto the mark.So our team decided to make a model whch is cost effective and is  miniature and connect to the android app to discover the lost item.
 
-**Example:**This can be  used to find out the lost items small objects like Rings, Specs, watches or anything you feel it's valuable etc
+**Example:** This can be  used to find out the lost items small objects like Rings, Specs, watches or anything you feel it's valuable etc
