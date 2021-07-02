@@ -9,6 +9,8 @@
 
 **Theme:** Open Innovation
 
+**Website Link::**https://bvsslgayathri-8679.github.io/Technothon_1.0/
+
 **Discord Usernames of TEAM MEMBERS on our Discord Server (Technothon 1.0):** 
 
 - Hima Bindu 🎈o.O#025,
