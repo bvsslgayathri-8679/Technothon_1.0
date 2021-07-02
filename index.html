@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" href="script.js"></script>
 	<title>Memory tag</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -9,6 +10,10 @@
 <!-- font awesome-->
     <script src="https://kit.fontawesome.com/3075ff846e.js" crossorigin="anonymous"></script>
 
+
+<!-- fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Trocchi&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
 
 <!-- fancy box-->
@@ -24,25 +29,25 @@
 <header class="container-fluid hd1" id="intro" >
 
 
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg sticky-top navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Memory tag</a>
+    <a class="navbar-brand nav2"><img class="imglogo" style="height: 12vh; width: 15vh" src="images/Memory-tag-logo.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 <i class="far fa-times-circle"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav mee mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active nav1" aria-current="page" href="#"><img class="imglogo" style="height: 8vh; width: 15vh" src="images/7.png"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#about">About project</a>
+          <a class="nav-link active nav1" aria-current="page" href="#about"><img class="imglogo" style="height: 8vh; width: 15vh" src="images/8.png"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#project">Project</a>
+          <a class="nav-link active nav1" aria-current="page" href="#project"><img class="imglogo" style="height: 8vh; width: 15vh" src="images/9.png"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#contact">contact us</a>
+          <a class="nav-link active nav1" aria-current="page" href="#contact"><img class="imglogo" style="height: 8vh; width: 15vh" src="images/10.png"></a>
         </li>
         
 
@@ -51,17 +56,12 @@
   </div>
 </nav>
 
-
 <div class="container h-100">
 	    	<div class="row h-100 align-items-center">
 	      		<div class="col-lg-12 col-md-12 col-sm-12 text-center">
-	        		<h1 style="color: white;">Memory tag</h1>
-	        		<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<div >
+	        		
+					
+					<div class="indicate">
 						
 						<a href="#about" style="scroll-behavior: smooth; ">
 						<div class="indicator" style="margin:auto;">
@@ -73,14 +73,11 @@
 						 </div>
 						</a>
 						<br>
-					<br>
-					<br>
-					<br>
-					<br>
-	      		</div>
-	    	</div>
-	  	</div>
-
+						
+	      		    </div>
+	    	    </div>
+	  	    </div>
+</div>
 
 </header>
 
@@ -88,8 +85,8 @@
 	<div class="container-fluid">
 		<div class="heading">
 			<div class="row">
-				<div class="col-sm-10 offset-sm-1">
-					<h1>About the project
+				<div class="col-sm-10 offset-sm-1 about-heading">
+					<h1 style="font-family: 'Lora', serif">ABOUT
 					</h1>
        
 				</div>
@@ -98,28 +95,42 @@
 		</div>
 	</div>
 <div class="container">
-	<div>
-		<h3>heading1
-		</h3>
-		content
-		<br>
-					<br>
-					<br>
-					<br>
-					<br>
+	<div class="row" style="margin-bottom: 2rem;">
+		
+		<div class="col-sm-12 col-lg-6 col-md-6 about-detail" >
+			<p class="about-detail" style="text-align: justify;">
+				The idea of the project is finding misplaced objects such as Spectacles, pens, house/car Keys, laptops and everything which can hold a small strip of plastic and vinyl on it.
+
+			</p>
+			<p class="about-detail" style="text-align: justify;">
+				We will be using sensors which shall be placed as a tag on the objects to be detected.
+
+			</p></div>
+		<div class="col-sm-12 col-lg-6 col-md-6">
+			<img class="image1" src="images/4.jpg">
+		</div>
 		
 	</div>
-	<div>
-		<h3>heading2
-		</h3>
-		<p>content
-			<br>
-					<br>
-					<br>
-					<br>
-					<br>
-		</p>
+	<div class="row" style="margin-bottom: 2rem;">
+		<div class="col-sm-12 col-lg-6 col-md-6">
+			<img class="image1" src="images/2.jpg">
+		</div>
+		<div class="col-sm-12 col-lg-6 col-md-6 about-detail">
+			<p class="about-detail" style="text-align: justify;">
+				<!-- Misplacing objects is one common issue faced in every household. So inorder to resolve this issue , our "Brute force" team has come up with a project plan. -->
+				
+				
+				So whenever someone misplaces their objects and are unable to find them this technology will be quite helpful.
+				We shall be placing tiny sensors on some tags which will be wrapped on the objects and hence can be detected easily as and when required.
+				
+			</p>
+			<p class="about-detail" style="text-align: justify;">
+				All that a person has to do is just buy these tags , wrap them around objects which are more likely to be misplaced (like keys, spectacles, pens, torchlights,..etc.) 
+			</p></div>
+		
+		
 	</div>
+	
 </div>
 </section >
 <section class="project" id="project">
@@ -127,40 +138,98 @@
 		<div class="heading">
 			<div class="row">
 				<div class="col-sm-10 offset-sm-1">
-					<h1>project
+					<h1 class="about-heading" style="font-size: 3rem ;font-family: 'Lora', serif">PROJECT
 					</h1>
        				
 				</div>
 			</div>
 
 		</div>
-		<div class="content">
-			content
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-										<br>
-					<br>
-					<br>
-					<br>
-					<br>
+		<div class="row">
+			<div class="col-md-12 col-sm-10 col-lg-12 imggg">
+				<img 
+			style="width: 80%;height: 90%;" 	src="images/Memory-tag-circuit1.png">
+			</div>
+		</div>
+		<div class="content row">
+			<div class="col-sm-12 col-lg-12 col-mg-12">
+				<p class="center1-detail">
+This Tag is a component which allows an Arduino board to connect to the internet and operate using an mobile application. It also allows the objects to be sensed and control remotely across existing network. This can be done using IoT and motion sensors. 
+</p>
+<p class="center1-detail">
+	⚡ Motion sensors are a simple and effective way  to find out the misplaced objects
+ ⚡
 
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
+</p>
+<p class="center1-detail">
+⚡The most frequently used motion sensors are Passive Infrared (PIR), Microwave, and Dual Tech/Hybrid. 
+⚡
+ 
+
+
+</p>
+<p class="center1-detail">
+	⚡Motion sensors are typically embedded systems with two major components: a sensor unit, an embedded chip.⚡
+ 
+
+
+</p>
+<p class="center1-detail">
+	⚡The Other components in our prototype include-External Antenna, GPS module, Processor, Drivers and microprocessors.
+ ⚡
+</p>
+ 
+ 	<div class="container-fluid what-we-do justify-content-center" data-aos="fade-up" style="width: 100%;" id="what-we-do">
+				<div class="row">
+				  <div class="col-md-12 col-lg-12 header">
+					<h3 class="text-center m-10" style="font-size: 2rem ;font-family: 'Lora', serif">Advantages</h3>
+				  </div>
+				</div>
+			<div class="row">
+				<div class="col-md-12 col-lg-12 col-sm-12 list-items text-center">
+				<p>
+					It has an open source design.
+
+				</p>
+				<p>
+					It is integrated with mobile application 
+
+
+				</p>
+				<p>
+					Easy to carry and use
+				</p>
+				<p>
+					Helps to find our things easily
+
+				</p>
+				<p>
+					Affordable cost 
+				</p>
+				
+			</div>
+		</div>
+	</div>
+
+	<div style="text-align: justify;font-size: 1.3rem">
+		<h3 style="text-align: center;  font-size: 2rem ;font-family: 'Lora', serif;margin-bottom: 0.5rem">Note 📝
+		</h3>
+		This is a low fidelity prototype which it is a well structured intuitive idea that helps anyone to transform this idea into a project or product or even a start-up. This is just an Idea came from critical brainstorming and empathizing people who often forget their objects where they were placed. Entire content in this website is designed by our Team and we claim there are no copy right violation or plagiarized content.
+
+	</div>
+			</div>
+			<div>
+				
+			</div>
 
 		</div>
 	</div>
 
 </section>
-<section class="galleryy" id="gallery" data-aos="fade-up">
+<section class="galleryy" id="gallery">
 		<div class="gg">
 		<div class="galleryheader heading finalh"> 
-			<h1 >
+			<h1  style="font-size: 3rem ;font-family: 'Lora', serif;color: white">
 				Gallery
 			</h1>
 			<span style="background-color:#420b5a;" class="anime-line"></span>
@@ -171,43 +240,43 @@
 	<div class="container ">
 		<div class="row mt-4 dflex justify-content-between gal">
 			<div class="item col-sm-6 col-md-4 col-mb-3 col-lg-4 ggg">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" class="fancybox" data-fancybox="gallery1">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" width="100%" height="auto">
+				<a href="images/3.jpg" class="fancybox" data-fancybox="gallery1">
+					<img src="images/3.jpg" width="100%" height="auto">
 				</a>
 
 			</div>
 
 			<div class="item col-sm-6 col-md-4 col-mb-3 col-lg-4 ggg">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" class="fancybox" data-fancybox="gallery1">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" width="100%" height="auto">
+				<a href="images/2.jpg" class="fancybox" data-fancybox="gallery1">
+					<img src="images/2.jpg" width="100%" height="auto">
 				</a>
 
 			</div>
 
 			<div class="item col-sm-6 col-md-4 col-mb-3 col-lg-4 ggg">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" class="fancybox" data-fancybox="gallery1">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" width="100%" height="auto">
+				<a href="images/4.jpg" class="fancybox" data-fancybox="gallery1">
+					<img src="images/4.jpg" width="100%" height="auto">
 				</a>
 
 			</div>
 
 			<div class="item col-sm-6 col-md-4 col-mb-3 col-lg-4 ggg">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" class="fancybox" data-fancybox="gallery1">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" width="100%" height="auto">
+				<a href="images/MT-BG.jpg" class="fancybox" data-fancybox="gallery1">
+					<img src="images/MT-BG.jpg" width="100%" height="auto">
 				</a>
 
 			</div>
 
 			<div class="item col-sm-6 col-md-4 col-mb-3 col-lg-4 ggg">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" class="fancybox" data-fancybox="gallery1">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" width="100%" height="auto">
+				<a href="images/Memory-tag-circuit1.png" class="fancybox" data-fancybox="gallery1">
+					<img src="images/Memory-tag-circuit1.png" width="100%" height="auto">
 				</a>
 
 			</div>
 
 			<div class="item col-sm-6 col-md-4 col-mb-3 col-lg-4 ggg">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" class="fancybox" data-fancybox="gallery1">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_AcR2TCx4UmZhMVLuOKFp1d1BuLvjF194Fg&usqp=CAU" width="100%" height="auto">
+				<a href="images/Memory-tag0.jpg" class="fancybox" data-fancybox="gallery1">
+					<img src="images/Memory-tag0.jpg" width="100%" height="auto">
 				</a>
 
 			</div>
@@ -219,53 +288,114 @@
 	</div>
 	</div>
 </section>
+	<section class="team" id="team" data-aos="fade-up">
+	<div class="container container-fluid">
+
+		<div class="team-heading">
+			<div class="row ">
+				<div class="col-sm-10 offset-sm-1 text-center" data-aos="flip-up" style="margin: 75px auto;">
+					<h1 style="font-family: 'Lora', serif">Team</h1>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="team-info">
+			<div class="row d-flex relative justify-content-center">
+
+				<div class="col-md-6 col-lg-3 mb-4 h-100 mainteam" data-aos="flip-left">
+					<div class="box teaam">
+						
+							<img src="images/team/1.png" class="img-fluid teammain">
+							<div class="box-content">
+							</div>
+								<ul class="icon">
+									
+										<li><a href="https://www.linkedin.com/in/tanmay-karthik-tadala-"><i class="fa fa-linkedin"></i>
+										<li><a href="mailto:sriharikarthik08@gmail.com? subject=
+"><i class="fa far fa-envelope"></i></a></li>
+								</ul>
+					</div>
+						
+						<div class="img-text">
+							<h4>Karthik</h4>
+						</div>
+				</div>
+				<div class="col-md-6 col-lg-3 mb-4 h-100 mainteam" data-aos="flip-right">
+					<div class="box teaam">
+						
+							<img src="images/team/3.png" class="img-fluid teammain">
+							<div class="box-content">
+								
+							</div>
+								<ul class="icon">
+									<li class="linkedin"><a href="https://www.linkedin.com/in/bvssl-gayathri-9091591b0" target="__blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="https://bvsslgayathri-8679.github.io/portfoliooo.github.io/" target="__blank"><i class="fa fab fa-edge"></i></a></li>
+                            <li class="instagram"><a href="https://www.instagram.com/gayathri_8679/" target="__blank" class="contactlink"><i class="fa fa-instagram"></i></a></li>
+                        
+
+								</ul>
+					</div>
+						
+						<div class="img-text">
+							<h4>Gayathri</h4>
+						</div>
+				</div>
+                <div class="col-md-6 col-lg-3 mb-4 h-100 mainteam" data-aos="flip-left">
+					<div class="box teaam">
+						
+							<img src="images/team/4.png" class="img-fluid teammain">
+							<div class="box-content">
+								
+							</div>
+								<ul class="icon">
+										<li><a href="https://www.linkedin.com/in/hima-bindu-002a45194/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://twitter.com/BinduTenneti"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://portfolios.talentsprint.com/~hima_bindu/"><i class="fa fa-chrome"></i></a></li>
+           
+									</ul>
+					</div>
+						
+						<div class="img-text">
+							<h4>Bindu</h4>
+						</div>
+				</div>
+				<div class="col-md-6 col-lg-3 mb-4 h-100 mainteam" data-aos="flip-right">
+					<div class="box teaam">
+						
+							<img src="images/team/2.png" class="img-fluid teammain">
+							<div class="box-content">
+							</div>
+								<ul class="icon">
+										<li><a href="mailto:prigreeshma.varada66@gmail.com? subject = "><i class="fa fa-envelope"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/greeshma-varada-749618216/"><i class="fa fa-linkedin"></i></a></li>
+
+										<!-- <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
+									</ul>
+					</div>
+						
+						<div class="img-text">
+							<h4>Greeshma</h4>
+						</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	
+</section>
 <footer class="contact-us" id="contact">
 	<div class="container">
-		<div class="heading">
-			<div class="head">
-				<h1>
-					Contact us
-				</h1>
+		<div class="heading row">
+			<div class="cont-head col-lg-12 col-md-12 col-sm-12">
+				<h2>
+					<p class="center1-detail" style="margin:0px;font-family: 'Lora', serif">From</p><br> <p class="center-detail" style="margin:0px;">❤️Gayatri Vidya Parishad College of engineering ~ GVPCE(A)❤️</p>
+
+				</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="head">
-					<h3>
-						Address
-					</h3>
-				</div>
-				<div class="detail">
-					<p>
-						details
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="head">
-					<h3>
-						contact info
-					</h3>
-				</div>
-				<div class="detail">
-					<p>
-						details
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<div class="head">
-					<h3>
-						social media handles
-					</h3>
-				</div>
-				<div class="detail">
-					<p>
-						details
-					</p>
-				</div>
-			</div>
-		</div>
+		
 	</div>
 </footer>
 </body>
