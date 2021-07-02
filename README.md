@@ -9,7 +9,7 @@
 
 **Theme:** Open Innovation
 
-**𝗪𝗲𝗯𝘀𝗶𝘁𝗲 𝗟𝗶𝗻𝗸:**https://bvsslgayathri-8679.github.io/Technothon_1.0/
+**𝗪𝗲𝗯𝘀𝗶𝘁𝗲 𝗟𝗶𝗻𝗸 :**https://bvsslgayathri-8679.github.io/Technothon_1.0/
 
 **Discord Usernames of TEAM MEMBERS on our Discord Server (Technothon 1.0):** 
 
