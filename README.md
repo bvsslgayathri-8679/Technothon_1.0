@@ -3,6 +3,8 @@
 
 **Detailed Explanation of the Idea:** It helps to monitor our misplaced items  in our day to day life and makes things easier.
 
+Web Page link--https://bvsslgayathri-8679.github.io/Technothon_1.0/
+
 **Solution provided:** 
 There are already various devices available but most of them are not cost effective and the size factor is also problematic.
 So our team has decided to make a model which is both cost effective and has minimum size . It can be connected to the Android app to detect the misplaced items using Motion based sensor and Global Positioning System.
