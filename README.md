@@ -34,3 +34,12 @@ We tried to explore the problems by ourselves and we're able to solve
 • Internet Of Things
 
 • Canva pro(Desiging tool).
+
+
+Note 📝
+This is a low fidelity prototype which it is a well structured intuitive idea that helps anyone to transform this idea into a project or product or even a start-up. This is just an Idea came from critical brainstorming and empathizing people who often forget their objects where they were placed. Entire content in this website is designed by our Team and we claim there are no copy right violation or plagiarized content.
+
+
+
+Copyright ©Bruteforce team
+
